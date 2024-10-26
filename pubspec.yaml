@@ -40,12 +40,12 @@ flutter:
     - assets/images/
 
 flutter_launcher_icons:
-  image_path: "assets/images/sear.png"
+  image_path: "assets/images/bil.png"
   android: true
   ios: true
   web:
     generate: true
-    image_path: "assets/images/sear.png"
+    image_path: "assets/images/bil.png"
     background_color: "#FFFFFF"
     theme_color: "#FFFFFF"
 
