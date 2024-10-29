@@ -24,7 +24,7 @@ class EquBeing extends GetView<PageLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.lushdv.value)),
+              url: WebUri.uri(Uri.parse(controller.nisp.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;

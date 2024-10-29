@@ -11,7 +11,7 @@ class RentalBuildView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.marvin.value
+          () => controller.rogahn.value
               ? const CircularProgressIndicator(color: Colors.green)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class RentalBuildView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.tmuhyp();
+              controller.vdqrast();
             },
             icon: const Icon(
               Icons.restart_alt,
